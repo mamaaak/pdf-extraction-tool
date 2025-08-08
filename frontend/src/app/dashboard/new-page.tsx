@@ -11,6 +11,7 @@ import {
   ChevronDownIcon,
   BarChart3Icon,
   PieChartIcon,
+  FileUpIcon,
   CheckCircleIcon,
   XCircleIcon,
   ClockIcon
