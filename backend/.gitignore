@@ -1,0 +1,30 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+logs/
+coverage/
+dist/
+build/
+.tmp/
+.cache/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Generated files
+uploads/
+test-results/
+test/results/
+test/data/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+
