@@ -13,7 +13,8 @@ backend/    Express API (pdf-parse + Groq SDK)
 
 1) Env vars
 - `frontend/.env.local`
-  - `NEXT_PUBLIC_API_URL=http://localhost:3001`
+  - Local: `NEXT_PUBLIC_API_URL=http://localhost:3001`
+  - Deployed (Render): `NEXT_PUBLIC_API_URL=https://pdf-extraction-tool.onrender.com`
 - `backend/.env`
   - `GROQ_API_KEY=YOUR_KEY`
   - `NODE_ENV=development`
