@@ -4,7 +4,7 @@
   "description": "Express backend for PDF extraction with Groq LLM",
   "main": "src/index.js",
   "scripts": {
-    "start": "cross-env PORT=3001 node src/index.js",
+    "start": "node src/index.js",
     "dev": "cross-env PORT=3001 nodemon src/index.js",
     "build": "echo 'Build step for backend' && npm install",
     "test": "jest",
